@@ -1,0 +1,41 @@
+.achivesList{
+  flex: 1;
+  display: flex;
+  >div{
+    flex:3;
+  }
+  td {
+      background-color: white;
+      border-right: 1px solid #ddd;
+  }
+  th {
+      border-right: 1px solid #ddd;
+  }
+  .detailList{
+      border-left: none;
+    >p{
+      position: relative;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      padding: 10px;
+      height: 53px;
+      line-height: 33px;
+      border-bottom: 1px solid #ddd;
+      font-size: 16px;
+      //background-color: rgb(242,242,242);
+      .close {
+          position: absolute;
+          right: 10px;
+          width: 60px;
+          margin-left: 78%;
+          text-align: right;
+          font-size: 16px;
+      }
+      .close:hover {
+          text-decoration: underline;
+      }
+    }
+    
+  }
+}

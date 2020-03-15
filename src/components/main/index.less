@@ -1,0 +1,223 @@
+.iconimg {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-top: -4px;
+}
+
+.layout-header-primary {
+  padding: 0 !important;
+  display: inline-block;
+  width: 100%;
+  height: 64px;
+}
+.layout-header {
+  width: 100%;
+  //  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+.layout-header-position {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+    //background-color: #1a2c4a;
+}
+.layout-header-left {
+    width: 50%;
+    height: 64px;
+    display: flex;
+}
+.logoimg {
+
+    margin-top: 12px;
+    width: 54px;
+    height: 40px;
+    margin-left: 2%;
+    margin-right: 15px;
+
+  margin-top: 13px;
+  width: 50px;
+  height: 35px;
+  margin-left: 2.5%;
+
+}
+.logo {
+  width: 0px;
+  min-width: 300px;
+  height: 50px;
+}
+.logo>.title {
+  font-size: 24px !important;
+  font-family: "方正兰亭黑简体";
+  margin-left: 2% !important;
+}
+.user-name {
+  padding-left: 5px;
+}
+.user-exit {
+  display: inline-block;
+  margin-left: 50%;
+  width: 150px;
+  //min-width: 200px;
+  height: 50px;
+  color: white;
+}
+.user-div {
+    cursor: pointer;
+}
+.user-div, .exit {
+  display: inline-block;
+}
+.exit {
+  text-decoration: none;
+  color: white;
+}
+.exit:hover {
+  color: white;
+}
+.separator{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.user-exit_clear {
+  clear: both;
+}
+.mainSider{
+  ul.ant-menu{
+    background: #252A39;
+    >li.ant-menu-submenu-inline,>li.ant-menu-submenu-inline:hover{
+      a{
+        color: #8C8E93 !important;
+      }
+      span{
+        color: #8C8E93 !important;
+      }
+    }
+    ul.ant-menu.ant-menu-sub.ant-menu-inline{
+      background: #131826;
+      li.ant-menu-item-selected,li.ant-menu-item-selected:hover{
+        background:#25BB93;
+        a{
+          color: #FFF !important;
+        }
+        span{
+          color: #FFF !important;
+        }
+      }
+    }
+  }
+}
+.subSider{
+  ul.ant-menu{
+    height: 100%;
+    border-left:1px solid #ddd;
+  }
+}
+.ant-menu-item 
+.anticon + span:hover, 
+.ant-menu-submenu-title 
+.anticon + span:hover {
+    color: rgb(26,44,74) !important;
+}
+.ant-menu-item .anticon, 
+.ant-menu-submenu-title 
+.anticon:hover {
+    color: rgb(26,44,74) !important;
+}
+.ant-menu-item > a:hover {
+    color: rgb(26,44,74) !important;
+}
+.ant-menu-vertical 
+.ant-menu-item::after, 
+.ant-menu-vertical-left 
+.ant-menu-item::after, 
+.ant-menu-vertical-right 
+.ant-menu-item::after, 
+.ant-menu-inline 
+.ant-menu-item::after {
+    color: rgb(26,44,74) !important;
+    border-right: 3px solid rgb(26,44,74) !important;
+}
+li:hover span{
+    color: rgb(26,44,74) !important;
+}
+.ant-menu-vertical >
+.ant-menu-item, 
+.ant-menu-vertical-left >
+.ant-menu-item, 
+.ant-menu-vertical-right >
+.ant-menu-item, 
+.ant-menu-inline > 
+.ant-menu-item, 
+.ant-menu-vertical > 
+.ant-menu-submenu > 
+.ant-menu-submenu-title,
+.ant-menu-vertical-left >
+.ant-menu-submenu >
+.ant-menu-submenu-title, 
+.ant-menu-vertical-right > 
+.ant-menu-submenu > 
+.ant-menu-submenu-title, 
+.ant-menu-inline > 
+.ant-menu-submenu > 
+.ant-menu-submenu-title {
+    height: 32px !important;
+    line-height: 32px !important;
+}
+.subSider .ant-layout-sider-children li {
+    height: 25px !important;
+    line-height: 25px !important;
+}
+.main_box {
+  position: absolute;
+  top: 108px;
+  bottom: 0px;
+  left: 200px;
+  right: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.mainSider {
+  border-right:1px solid #ddd;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media screen and (width:1920px){
+  .ant-table-fixed-header > .ant-table-content > .ant-table-scroll > .ant-table-body {
+    max-height: 550px !important;
+  }
+}
+@media screen and (width:1366px){
+  .ant-table-fixed-header > .ant-table-content > .ant-table-scroll > .ant-table-body {
+    max-height: 400px !important;
+  }
+}
+.width70{
+  width:70% !important;
+}
+td{
+  background: #fff;
+}
+.yellow{
+  color: #1abc9c;
+}
+.red{
+  color:red;
+}
+.ant-modal .ant-modal-content{
+  .ant-table-header,.ant-table-body{
+    padding-right: 80px;
+  }
+  .ant-table-thead,.ant-table-tbody{
+    >tr{
+      th:last-child,td:last-child{
+        border-right: 1px solid #e8e8e8 !important;
+      }
+    }
+  }
+}
+body{
+  overflow: hidden;
+}

@@ -1,0 +1,89 @@
+.projectDetail_archives {
+  position: relative;
+}
+.projectDetail_archives .back {
+  position: absolute;
+  right: 20px;
+}
+.projectDetail_archives .back img {
+  width: 20px;
+}
+.projectDetail_archives .mnuemnue {
+  display: flex;
+  justify-content: space-around;
+}
+.projectDetail_archives .currentMenu {
+  padding: 0px 10px;
+}
+.projectDetail_archives .currentMenu a span {
+  color: #666;
+}
+.projectDetail_archives .content {
+  padding: 0px;
+  margin: 0px;
+}
+.projectDetail_archives .ant-tabs-bar {
+  margin: 0px;
+}
+.impWJ {
+  height: 70% !important;
+  width: 50% !important;
+  padding: 0 !important;
+}
+.impWJ .ant-modal-content {
+  height: 100% !important;
+}
+.impWJ .ant-modal-content .ant-modal-body {
+  height: 80% !important;
+}
+.impWJ .imp {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.impWJ .imp .imp_top {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+.impWJ .imp .imp_bot {
+  flex: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+.impWJ .imp .imp_bot .yzsc {
+  height: 100%;
+  width: 100%;
+}
+.impWJ .imp .yangshi {
+  float: left;
+}
+.wwww {
+  display: flex;
+  flex-direction: column;
+}
+.wwww .imp {
+  display: flex;
+  flex-direction: column;
+}
+.wwww .imp .imp_top {
+  flex: 1;
+}
+.wwww .imp .imp_top {
+  flex: 1;
+  line-height: 3 !important;
+}
+.wwww .imp .imp_bot {
+  flex: 10;
+}
+.wwww .imp .imp_bot .ant-upload-drag {
+  height: 280px !important;
+}
+.wwww .ant-modal-body {
+  line-height: 10 !important;
+}

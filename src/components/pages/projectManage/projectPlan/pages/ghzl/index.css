@@ -1,0 +1,107 @@
+.projectManage_projectPlan_ghzl .content {
+  display: flex;
+  flex: 1;
+  background-color: white;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-detail {
+  flex: 1;
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-detail > div {
+  width: 100%;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-detail .detail_top {
+  height: 10%;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-detail .detail_bottom {
+  height: 85%;
+  display: flex;
+  justify-content: center;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-detail .detail_bottom > div {
+  flex: 1;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  flex-direction: column;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-detail .detail_bottom > div .bt {
+  flex: 1;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-detail .detail_bottom > div .img {
+  flex: 15;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-detail .detail_bottom > div .img1 {
+  background: url(img/img1.png) no-repeat center center;
+  background-size: 90% 95%;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-detail .detail_bottom > div .img2 {
+  background: url(img/img2.png) no-repeat center center;
+  background-size: 90% 95%;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-wj {
+  flex: 3;
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-wj .close {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #F1F1F1;
+  padding-right: 10px;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-map {
+  flex: 3;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-map .close {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #F1F1F1;
+  padding-right: 10px;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-map .fb_content {
+  flex: 1;
+  display: flex;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-map .fb_content .fileList {
+  flex: 1;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-map .fb_content .fb_map {
+  background: #4E4E4E;
+  flex: 2;
+}
+.projectManage_projectPlan_ghzl .content .ghzl-table {
+  padding: 10px;
+  flex: 1;
+}
+.projectManage_projectPlan_ghzl .content .projectManage-time {
+  height: 60px;
+  width: 100%;
+  padding-left: 10px;
+  line-height: 60px;
+  background-color: #f2f2f2;
+}
+.projectManage_projectPlan_ghzl .content .projectManage-time .sjzq {
+  margin-right: 5px;
+  font-size: 16px;
+}
+.projectManage_projectPlan_ghzl .content tr td:nth-child(7) {
+  color: #1abc9c;
+}
+.projectManage_projectPlan_ghzl .ant-tabs-top-bar {
+  margin: 0px;
+}

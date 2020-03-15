@@ -1,0 +1,46 @@
+.achivesList-header {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ccc;
+    //background-color: rgb(242,242,242);
+    display: flex;
+    .left {
+        flex: 3;
+        height: 60px;
+        line-height: 60px;
+        padding-left: 5px;
+        font-size: 20px;
+        color: black;
+        font-family: "微软雅黑";
+    }
+    .right {
+        flex: 1;
+        height: 60px;
+        line-height: 60px;
+        button {
+            float: left;
+            margin-left: 30px;
+            margin-top: 12.5px;
+            width: 80px;
+            height: 35px;
+            line-height: 35px;
+        }
+    }
+  }
+.achivesList{
+  flex: 1;
+  display: flex;
+  >div{
+    flex:1;
+  }
+  
+  .detailList{
+    border-left:1px solid #ddd;
+    >p{
+      margin: 0px;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      font-size: 16px;
+    }
+  }
+}

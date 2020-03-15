@@ -1,0 +1,177 @@
+.userManage-userlist {
+  background-color: #f8f8f8;
+}
+.userManage-userlist .yhlb-header1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+.userManage-userlist .yhlb-header1 span:nth-child(1) {
+  position: absolute;
+  width: 5px;
+  height: 18px;
+  top: 16px;
+  left: 5px;
+  right: 5px;
+  background-color: #1abc9c;
+}
+.userManage-userlist .yhlb-header1 span:nth-child(2) {
+  position: absolute;
+  left: 15px;
+}
+.userManage-userlist .yhlb-headerbox {
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 98.5%;
+}
+.userManage-userlist .yhlb-header {
+  padding-left: 1%;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+.userManage-userlist .yhlb-header > span {
+  margin-left: 3px;
+}
+.userManage-userlist .yhlb-search {
+  line-height: 50px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.userManage-userlist .yhlb-search span:nth-child(1) {
+  margin-left: 3%;
+  margin-right: 5px;
+}
+.userManage-userlist .yhlb-date,
+.userManage-userlist .yhlb-czlx {
+  margin-left: 3%;
+  margin-right: 5px;
+}
+.userManage-userlist .yhlb-cx {
+  margin-left: 3%;
+  background-color: white !important;
+  color: black !important;
+  border-color: #ccc !important;
+}
+.userManage-userlist .yhlb-header2 {
+  margin-top: 8px;
+  height: 54px;
+  padding-left: 1%;
+  line-height: 54px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #f3f3f3;
+}
+.userManage-userlist .yhlb-header2 .tj-buttonshow {
+  display: inline-block;
+}
+.userManage-userlist .yhlb-header2 .tj-buttonnone {
+  display: none;
+}
+.userManage-userlist .yhlb-header2 span {
+  margin-left: 3px;
+}
+.userManage-userlist .yhlb-header2 button {
+  margin-top: 5px;
+  margin-left: 82%;
+  height: 35px;
+  width: 80px;
+  line-height: 30px;
+}
+.userManage-userlist .yhlb-table {
+  left: 0px;
+  position: relative;
+  border: 1px solid #ccc;
+}
+.userManage-userlist .yhlb-table table {
+  width: 100%;
+}
+.userManage-userlist .yhlb-table table tr:hover td {
+  background-color: #e6d7e5;
+  animation: bgc 0.5s ease-in;
+}
+.userManage-userlist .yhlb-table table tr:nth-child(1):hover {
+  background-color: #f2f2f2;
+}
+.userManage-userlist .yhlb-table table td {
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+.userManage-userlist .yhlb-table table td span {
+  display: inline-block;
+  width: 40px;
+  height: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+.userManage-userlist .yhlb-table table td span:hover {
+  text-decoration: underline;
+}
+.userManage-userlist .yhlb-table table td span:nth-child(1) {
+  margin-right: 15px;
+  color: #1abc9c;
+}
+.userManage-userlist .yhlb-table table td span:nth-child(2) {
+  margin-left: 15px;
+  color: red;
+}
+@keyframes bgc {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.userManage-userlist .zwsjnone {
+  display: none;
+  background-color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+.userManage-userlist .zwsjhave {
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.userManage-userlist .example-input {
+  display: inline-block;
+}
+.userManage-userlist .yhlb-table-th {
+  width: 20%;
+  height: 54px;
+  background-color: #f9fafc;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-weight: bolder;
+  color: black;
+}
+.bj-line,
+.tj-line {
+  padding: 5px;
+}
+.bj-line input,
+.tj-line input {
+  margin-left: 5px;
+}

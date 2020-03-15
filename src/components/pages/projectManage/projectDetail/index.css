@@ -1,0 +1,77 @@
+.projectDetail {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.projectDetail .header {
+  flex: none;
+}
+.projectDetail .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.projectDetail .body {
+  position: relative;
+}
+.projectDetail .body .more {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+.projectDetail li {
+  list-style: none;
+}
+.projectDetail .header {
+  position: relative;
+}
+.projectDetail .header .back {
+  position: absolute;
+  right: 20px;
+}
+.projectDetail .header .back img {
+  width: 20px;
+}
+.projectDetail .header .title {
+  border-bottom: 1px solid #ddd;
+}
+.projectDetail .header .title span:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+}
+.projectDetail .header .title span:nth-child(2) {
+  font-weight: bold;
+}
+.projectDetail .header .title span:nth-child(3) {
+  font-weight: bold;
+  color: orange;
+}
+.projectDetail .header .projectTable {
+  width: 100%;
+}
+.projectDetail .header .projectTable ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+.projectDetail .header .projectTable ul li {
+  width: 1px;
+  flex: 1;
+  display: flex;
+  padding: 5px;
+}
+.projectDetail .header .projectTable ul li span:nth-child(1) {
+  font-weight: bold;
+  flex: none;
+}
+.projectDetail .header .projectTable ul li span:nth-child(2) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.projectDetail .header .projectData {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden;
+}

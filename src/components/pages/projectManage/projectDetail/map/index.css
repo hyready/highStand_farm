@@ -1,0 +1,89 @@
+.projectdetail_map {
+  height: 100%;
+}
+.projectdetail_map > div {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.projectdetail_map > div > div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.projectdetail_map > div .map_left {
+  flex: 1;
+}
+.projectdetail_map > div .map_right {
+  flex: 1.5;
+}
+.projectdetail_map > div .title {
+  flex: 1;
+  border: 1px solid #F2F2F2;
+  background-color: #F2F2F2;
+  border-left: 3px solid #25bb93;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  font-weight: bold;
+}
+.projectdetail_map > div .title span {
+  color: #25bb93;
+  font-weight: 100;
+}
+.projectdetail_map > div .nr {
+  flex: 13;
+}
+.projectdetail_map > div .right_bottom {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #F2F2F2;
+}
+.projectdetail_map > div .right_bottom > div {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.projectdetail_map > div .right_bottom > div .pic {
+  flex: 12;
+}
+.projectdetail_map > div .right_bottom > div .pic_title {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.asd {
+  width: 600px !important;
+}
+.asd .ant-modal-body {
+  display: flex;
+  justify-content: center;
+  height: 300px !important;
+}
+.asd .ant-modal-body .pic_sc {
+  margin: 10px !important;
+  border: 1px solid #ccc;
+  display: flex;
+  flex: 1;
+}
+.asd .ant-modal-body .pic_sc .drag_file {
+  border: none !important;
+  display: flex;
+  flex-direction: column;
+  flex: 10;
+}
+.asd .ant-modal-body .pic_sc .drag_file .yzsc {
+  height: 100%;
+  width: 100%;
+}
+.asd .ant-modal-body .pic_sc .input_import {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.asd .ant-modal-body .pic_sc .impname {
+  flex: 1;
+}

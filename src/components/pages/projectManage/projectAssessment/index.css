@@ -1,0 +1,183 @@
+.projectManage_projectAssessment {
+  background-color: #f8f8f8;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  height: 100%;
+}
+.projectManage_projectAssessment .yd {
+  cursor: pointer;
+}
+.projectManage_projectAssessment .detail {
+  height: 100%;
+  flex-direction: column;
+}
+.projectManage_projectAssessment .flex_1 {
+  flex: 1;
+}
+.projectManage_projectAssessment .yhlb-headerbox {
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 98.5%;
+}
+.projectManage_projectAssessment .yhlb-header {
+  padding-left: 1%;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+.projectManage_projectAssessment .yhlb-header > span {
+  margin-left: 3px;
+}
+.projectManage_projectAssessment .input_last {
+  position: absolute;
+  right: 2%;
+}
+.projectManage_projectAssessment .yhlb-search {
+  line-height: 50px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.projectManage_projectAssessment .yhlb-search span:nth-child(1) {
+  margin-left: 3%;
+  margin-right: 5px;
+}
+.projectManage_projectAssessment .yhlb-date,
+.projectManage_projectAssessment .yhlb-czlx {
+  margin-left: 3%;
+  margin-right: 5px;
+}
+.projectManage_projectAssessment .yhlb-cx {
+  margin-left: 3%;
+}
+.projectManage_projectAssessment .example-input {
+  display: inline-block;
+}
+.projectManage_projectAssessment .datachenck {
+  display: flex !important;
+  justify-content: center !important;
+}
+.projectManage_projectAssessment .datachenck input {
+  width: 200px !important;
+  display: flex !important;
+}
+.projectManage_projectAssessment .pg {
+  display: flex;
+  justify-content: space-around;
+}
+.projectManage_projectAssessment .ant-modal-body {
+  display: flex !important;
+  justify-content: center !important;
+}
+.width70 {
+  width: 70% !important;
+  height: 70% !important;
+}
+.table_pro {
+  width: 100%;
+}
+.table_pro tr td {
+  border: 1px solid #F1F1F1 !important;
+  text-align: center;
+}
+.qzsz {
+  width: 70% !important;
+}
+.pa_xq {
+  width: 70% !important;
+}
+.pj {
+  width: 90% !important;
+}
+.pj div:nth-child(2) div:nth-child(3) {
+  display: flex !important;
+}
+.pj div:nth-child(2) div:nth-child(3) > div {
+  flex: 1;
+}
+.pj div:nth-child(2) div:nth-child(3) .a {
+  display: block;
+}
+.pj div:nth-child(2) div:nth-child(3) .zhanshi {
+  display: none;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .close {
+  float: right;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright > div {
+  width: 100%;
+  border: 1px solid #F1F1F1;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_top {
+  flex: 1;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_top span {
+  margin-left: 10px;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom > div {
+  border: 1px solid #F1F1F1;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_l {
+  flex: 1;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_l ul li {
+  width: 80%;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.65);
+  margin-top: 10px;
+  font-size: 14px;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_r {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_r > div {
+  flex: 1;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_r div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_r div:nth-child(1) p {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  flex: 1;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_r div:nth-child(1) div {
+  flex: 20;
+  background: url(img/a.png) no-repeat;
+  background-size: cover;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_r div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #F1F1F1;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_r div:nth-child(2) p {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  flex: 1;
+}
+.pj div:nth-child(2) div:nth-child(3) .qzright .r_bottom .r_r div:nth-child(2) div {
+  flex: 20;
+  background: url(img/b.png) no-repeat;
+  background-size: cover;
+}

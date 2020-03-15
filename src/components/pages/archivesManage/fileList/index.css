@@ -1,0 +1,13 @@
+.achivesList {
+  flex: 1;
+  display: flex;
+}
+.achivesList > div {
+  flex: 3;
+}
+.achivesList .detailList > p {
+  margin: 0px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}

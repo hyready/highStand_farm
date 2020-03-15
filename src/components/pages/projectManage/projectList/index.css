@@ -1,0 +1,131 @@
+.projectManage_projectList {
+  background-color: #f8f8f8;
+  height: 100%;
+  padding: 8px;
+}
+.projectManage_projectList .ant-table-title {
+  padding: 0 !important;
+}
+.projectManage_projectList .selecta {
+  width: 258px !important;
+}
+.projectManage_projectList .yd {
+  cursor: pointer;
+}
+.projectManage_projectList .flex_1 {
+  flex: 1;
+}
+.projectManage_projectList .flex_none {
+  flex: none;
+}
+.projectManage_projectList > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.projectManage_projectList > div > div {
+  flex: none;
+}
+.projectManage_projectList .yhlb-headerbox {
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 98.5%;
+}
+.projectManage_projectList .yhlb-header {
+  padding-left: 1%;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+.projectManage_projectList .yhlb-header > span {
+  margin-left: 3px;
+}
+.projectManage_projectList .yhlb-search {
+  line-height: 50px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.projectManage_projectList .yhlb-search span:nth-child(1) {
+  margin-left: 3%;
+  margin-right: 5px;
+}
+.projectManage_projectList .yhlb-cx {
+  margin-left: 3%;
+}
+.projectManage_projectList .input_last {
+  position: absolute;
+  right: 2%;
+}
+.projectManage_projectList .example-input {
+  display: inline-block;
+}
+.projectManage_projectList .example-input .btn_last {
+  margin-left: 10px;
+}
+.mapBox {
+  width: 85% !important;
+  height: 90% !important;
+}
+.mapBox .ant-modal-content {
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.mapBox .ant-modal-content .ant-modal-body {
+  flex: 1;
+  display: flex;
+  overflow-y: auto;
+}
+.mapBox .ant-modal-content .ant-modal-body .main {
+  height: 450px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.mapBox .ant-modal-content .ant-modal-body .main .input_import {
+  flex: 1;
+}
+.mapBox .ant-modal-content .ant-modal-body .main .drag_file {
+  flex: 7;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mapBox .ant-modal-content .ant-modal-body .main .input_down {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.aa {
+  display: flex !important;
+  justify-content: center !important;
+  width: 50% !important;
+}
+.aa input {
+  color: black !important;
+}
+.for_pro {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.ant-table-wrapper,
+.ant-spin-nested-loading,
+.ant-spin-container {
+  height: 100%;
+}
+.ant-spin-container {
+  display: flex;
+  flex-direction: column;
+}
+.ant-spin-container > div {
+  flex: 1;
+  overflow-y: auto;
+}
+.ant-spin-container > ul {
+  flex: none;
+  text-align: right;
+}
+.tables tr:nth-child(2n-1) {
+  background: #ddd;
+}

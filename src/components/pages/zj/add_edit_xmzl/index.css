@@ -1,0 +1,35 @@
+.add_edit_xmzl {
+  width: 100%;
+}
+.add_edit_xmzl .selectzt {
+  width: 250px !important;
+  max-width: 250px !important;
+}
+.add_edit_xmzl .selectzt .ant-select-selection__rendered {
+  margin-left: 0px !important;
+}
+.add_edit_xmzl tr {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+.add_edit_xmzl tr td {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.add_edit_xmzl tr td span {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.add_edit_xmzl tr td div {
+  flex: 5;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+.add_edit_xmzl tr td div input {
+  width: 250px;
+}

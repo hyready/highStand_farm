@@ -1,0 +1,67 @@
+.gh_ghztbg {
+  background-color: #f8f8f8;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.gh_ghztbg .yhlb-headerbox {
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 98.5%;
+}
+.gh_ghztbg .yhlb-header {
+  padding-left: 1%;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+.gh_ghztbg .yhlb-header > span {
+  margin-left: 3px;
+}
+.gh_ghztbg .yhlb-search {
+  line-height: 50px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.gh_ghztbg .yhlb-search span:nth-child(1) {
+  margin-left: 3%;
+  margin-right: 5px;
+}
+.gh_ghztbg .yhlb-cx {
+  margin-left: 3%;
+  background-color: white !important;
+  color: black !important;
+  border-color: #ccc !important;
+}
+.gh_ghztbg .example-input {
+  display: inline-block;
+  width: 12%;
+}
+.gh_ghztbg .ant-form-item-control-wrapper {
+  width: 70% !important;
+}
+.modal_gh {
+  width: 70% !important;
+}
+.input_gh {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.input_gh label {
+  margin-right: 5px;
+}
+.input_gh > div {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  width: 50%;
+}
+.input_gh > div label {
+  margin-right: 5px;
+}
+.input_gh input {
+  width: 40%;
+}

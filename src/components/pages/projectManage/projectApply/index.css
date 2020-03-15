@@ -1,0 +1,48 @@
+.projectManage_projectApply {
+  background-color: #f8f8f8;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.projectManage_projectApply .yhlb-headerbox {
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 98.5%;
+}
+.projectManage_projectApply .yhlb-header {
+  padding-left: 1%;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+.projectManage_projectApply .yhlb-header > span {
+  margin-left: 3px;
+}
+.projectManage_projectApply .yhlb-search {
+  line-height: 50px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.projectManage_projectApply .yhlb-search span:nth-child(1) {
+  margin-left: 3%;
+  margin-right: 5px;
+}
+.projectManage_projectApply .yhlb-cx {
+  margin-left: 3%;
+  background-color: white !important;
+  color: black !important;
+  border-color: #ccc !important;
+}
+.projectManage_projectApply .example-input {
+  display: inline-block;
+}
+.projectManage_projectApply .ant-form-item-control-wrapper {
+  width: 70% !important;
+}
+.aa_apply {
+  display: flex !important;
+}
+.input_app {
+  width: 162% !important;
+}

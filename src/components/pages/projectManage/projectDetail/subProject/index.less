@@ -1,0 +1,171 @@
+.projectdetail_subproject {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  // .ant-table-wrapper{
+  //   height: 95% !important;
+  // }
+  .xiaoshi{
+    display: none !important; 
+  }
+  .yangshi {
+    color: #25bb93;
+  }
+
+  > .flex_1 {
+    display: flex;
+    flex-direction: column;
+
+    .yhlb-search {
+      flex: 1;
+    }
+
+    .ant-table-body {
+      display: flex;
+      flex-direction: column;
+
+      .ant-table-thead {
+        flex: 1;
+      }
+
+      .ant-table-tbody {
+        flex: 7;
+      }
+    }
+
+    .ant-table-wrapper {
+      flex: 10;
+      height: 0px !important;
+    }
+  }
+
+  .type_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 2%;
+    height: 30px;
+    // flex: 1
+  }
+
+  .yhlb-search {
+    border-top: 1px solid #ccc !important;
+  }
+
+  .kanban {
+    .ant-card-body{
+      // background-color: red;
+      padding: 10px !important;
+      .xg{
+        color: #25bb93;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .mk{
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+    .kanban_list {
+      display: flex;
+      justify-content: space-around;
+      overflow-y: auto;
+      max-height: 500px;
+    }
+
+    .kb_mk {
+      flex: 1;
+      padding: 0 5px;
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        border: 1px solid #ccc;
+        height: 30px;
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .nr {
+        display: flex;
+        flex-direction: column;
+
+        .mk {
+          height: 150px;
+          border: 1px solid #ccc;
+          margin-bottom: 5px;
+          display: flex;
+          flex-direction: column;
+
+          div:first-child {
+            flex: 9;
+            display: flex;
+
+            .mk_left {
+              display: flex;
+              flex-direction: column;
+              flex: 2;
+
+              div {
+                flex: 1;
+                border: none;
+                padding-left: 10px;
+                color: black;
+              }
+            }
+
+            .mk_right {
+              flex: 1;
+              color: black;
+            }
+          }
+
+          div:last-child {
+            flex: 1;
+            border-top: 1px solid #ccc;
+            color: #25bb93;
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .example-input {
+    text-align: center;
+  }
+}
+
+.subProjectList {
+  .ant-modal-body{
+    padding-right: 10% !important;
+    >div{
+      flex: 1;
+    }
+  }
+  .projectData {
+    width: 100%;
+    td{
+      background: #fff;
+      text-align: right;
+      // border: 1px solid #eee;
+      padding: 10px 5px;
+      >span{
+        flex: 1;
+      }
+      >input{
+        width: 200px;
+      }
+    }
+    td:nth-child(2n-1){
+      // background: #ddd;
+    }
+
+  }
+}
+

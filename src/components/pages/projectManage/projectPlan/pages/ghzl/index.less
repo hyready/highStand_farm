@@ -1,0 +1,162 @@
+.projectManage_projectPlan_ghzl{
+    .close:hover {
+        text-decoration: underline;
+    }
+    .content {
+        display: flex;
+        flex: 1;
+        background-color: white;
+        .ghzl-detail{
+            flex: 1;
+            border: 1px solid rgb(242,242,242);
+            padding:10px;
+            >div{
+                width: 100%
+            }
+            
+            .detail_top{
+                height: 30px;
+                line-height: 30px;
+                font-size: 18px;
+                font-weight: bold;
+                display: flex;
+                background-color: rgb(241,241,241);
+                justify-content: space-between;
+               // border-bottom: 1px solid rgb(232,232,232);
+               span:nth-child(2) {
+                font-size: 16px !important;
+                font-weight: 400 !important;
+               }
+            }
+            .detail_bottom{
+                height: 85%;
+                display: flex;
+                justify-content: center;
+                .first {
+                    border: 1px solid rgb(232,232,232);
+                }
+                .second {
+                    border: 1px solid rgb(232,232,232);
+                }
+                >div{
+                    flex: 1;
+                    border: 1px solid rgb(242,242,242);
+                    display: flex;
+                    flex-direction: column;
+                    .bt{
+                        padding-left: 10px;
+                        flex: 1;
+                        line-height: 30px;
+                        background-color: rgb(241,241,241);
+                        border-bottom: 1px solid rgb(232,232,232);
+                    }
+//                  .bt1 {
+//                      border-right: 1px solid rgb(232,232,232);
+//                      border-left: 1px solid rgb(232,232,232);
+//                  }
+//                  .bt2 {
+//                      border-left: 1px solid rgb(232,232,232);
+//                      border-right: 1px solid rgb(232,232,232);
+//                  }
+                    .img{
+                        flex: 15;
+                    }
+                    .img1{
+                        background: url(./img/img1.png) no-repeat center center;
+                        background-size: 90% 95%;
+                    }
+                    .img2{
+                        background: url(./img/img2.png) no-repeat center center;
+                        background-size: 90% 95%;
+                    }
+                }
+            }
+        }
+
+
+        .ghzl-wj{
+            flex: 3;
+            border: 1px solid rgb(242,242,242);
+            padding: 10px;
+            .close{
+                // height: 1%;
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                display: flex;
+                justify-content: flex-end;
+                background-color: #F1F1F1;
+                padding-right: 10px;
+                font-size: 16px;
+            }
+            
+        }
+        .ghzl-map{
+            flex: 3;
+            border: 1px solid rgb(242,242,242);
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            .close{
+                // height: 1%;
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                display: flex;
+                justify-content: flex-end;
+                background-color: #F1F1F1;
+                padding-right: 10px;
+                font-size: 16px;
+            }
+            .fb_content{
+                flex: 1;
+                display: flex;
+                .fileList{
+                    flex: 1;
+                }
+                .fb_map{
+                    background: #4E4E4E;
+                    flex: 2;
+                }
+            }
+        }
+
+        .ghzl-table {
+            padding:10px;
+            flex: 1;
+            // .table1{
+            //     .ant-table-body{
+            //         .ant-table-thead tr {
+            //             th:nth-last-child(1){
+            //                 width: 
+            //             }
+            //         }
+            //     }
+            // }
+        }
+        .projectManage-time {
+            height: 60px;
+            width: 100%;
+            padding-left: 10px;
+            line-height: 60px;
+            background-color: rgb(242,242,242);
+            .sjzq {
+                margin-right: 5px;
+                font-size: 16px;
+            }
+        }
+        tr td:nth-child(7) {
+            color: rgb(26, 188, 156);
+        }
+    }
+  .ant-tabs-top-bar{
+    margin: 0px;
+
+  }
+  tr th:nth-child(1) {
+      width: 350px;
+  }
+  .xgwj,.dtfb,.db {
+      color: #1abc9c;
+  }
+}
