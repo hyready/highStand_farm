@@ -41,6 +41,7 @@ class App extends Component {
                             {child.name}
                         </Link></Menu.Item>
                     })}
+
                 </SubMenu>
             );
         });
